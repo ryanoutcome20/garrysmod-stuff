@@ -1,0 +1,16 @@
+NEW C 10
+NEW B 0
+NEW A 1
+NEW D 0
+REG Fuck 6
+
+ADD B A B
+AND B C D
+JNZ 12 D
+
+JMP Fuck
+
+CAP MsgN MsgN
+SYS MsgN B
+
+STK
